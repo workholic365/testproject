@@ -3,3 +3,5 @@ this is a test log file for sumitting
 今天是20180724，今天学习慕课网上的视频
 
 this is a testproject origional codes
+
+修复了一个bug
