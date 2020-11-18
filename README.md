@@ -1,2 +1,1 @@
-# testproject
-制作测试使用
+record some useful test codes that maybe use in later coding life ...
