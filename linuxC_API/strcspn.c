@@ -14,9 +14,9 @@
 int main() 
 {
 	char *str="Linux was first developed for 386/486-based pcs."; 
-	printf("%d\n",strcspn(str," ")); 
-	printf("%d\n",strcspn(str,"/-")); 
-	printf("%d\n",strcspn(str,"1234567890")); 
+	printf("%d\n",strcspn(str," ")); 	 /*只计算到“ ”的出现，所以返回“Linux”的长度*/
+	printf("%d\n",strcspn(str,"/-")); 	/*计算到出现“/”或“－”，所以返回到“6”的长度*/
+	printf("%d\n",strcspn(str,"1234567890")); 	/* 计算到出现数字字符为止，所以返回“3”出现前的长度*/
 	
 	return 0;
 }
